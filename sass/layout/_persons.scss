@@ -1,0 +1,55 @@
+.box-photo {
+  background-color: var(--titel-background-color);
+}
+.list-work {
+  display: flex;
+  justify-content: space-between;
+}
+.team-description {
+  padding: 30px 0px;
+  text-align: center;
+  border: 1px solid var(--white-text-color);
+}
+.feature-list-name {
+  color: var(--titel-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.27;
+  margin-bottom: 10px;
+}
+.text-name {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.item-work {
+  background-color: var(--primary-background-color);
+  border-radius: 0px 0px 4px 4px;
+}
+.list-person {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.link-person {
+  display: flex;
+}
+.contacts-person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+  &:hover {
+  background-color: var(--accent-text-color);
+  color: var(--white-text-color);
+}
+}
+.icon-person {
+  fill: currentColor;
+  &:hover {
+  color: var(--white-text-color);
+}
+}

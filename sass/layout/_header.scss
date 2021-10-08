@@ -1,0 +1,34 @@
+.header-border {
+  background-color: var(--white-text-color);
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+.logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  color: var(--accent-text-color);
+  font-family: Raleway, sans-seri;
+  font-size: 28px;
+  line-height: 1.19;
+}
+.logo .accent {
+  color: var(--titel-text-color);
+}
+.active {
+  position: relative;
+  color: var(--accent-text-color);
+}
+.active::after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-text-color);
+  border-radius: 2px;
+  top: 47px;
+}
+.container-heder {
+  display: flex;
+  align-items: center;
+}

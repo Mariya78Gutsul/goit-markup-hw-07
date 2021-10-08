@@ -1,0 +1,82 @@
+.footer-fon {
+  background: var(--hero-background-color);
+  padding: 60px 0px;
+}
+.footer-logo {
+  color: var(--accent-text-color);
+  font-family: Raleway, sans-seri;
+  font-size: 28px;
+  line-height: 1.19;
+}
+.accent-text {
+  color: var(--white-text-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.adress {
+  display: inline;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  color: var(--white-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.41;
+}
+.footer-left-block {
+  display: flex;
+  flex-direction: column;
+}
+.contacts {
+  margin-bottom: 9px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-text-color);
+}
+
+.footer-position {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-right-block {
+  margin-left: 70px;
+}
+
+.footer-right-block h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--white-text-color);
+  border-radius: 50%;
+  &:hover {
+  background-color: var(--accent-text-color);
+}
+}
+
+.footer-list {
+  display: flex;
+  gap: 10px;
+}
+
+

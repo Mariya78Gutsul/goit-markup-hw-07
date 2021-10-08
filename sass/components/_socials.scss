@@ -1,0 +1,48 @@
+.icon-footer {
+  fill: currentColor;
+}
+
+
+.footer-signup-block {
+  margin-left: auto;
+}
+.form-signup {
+  display: flex;
+}
+.text-signup {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.button-signup {
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+  padding-right: 28px;
+  margin-left: 12px;
+}
+.email-input {
+  width: 350px;
+  height: 50px;
+  padding-left: 16px;
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.6);
+}
+.email-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
+}
+.icon-signup {
+  margin-left: 10px;
+}

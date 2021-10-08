@@ -1,0 +1,32 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.button-filter {
+  font-family: inherit;
+  border-radius: 6px;
+  padding: 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: none;
+  transition-property: background-color, color, box-shadow;
+  transition-timing-function: var(--timing-function);
+  transition-duration: 250ms;
+            &:hover,
+            &:focus{
+            color: var(--white-text-color);
+            background: var(--accent-text-color);
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.63;
+            text-align: center;
+            }
+}
+.button-filter:not(:nth-child(5n)) {
+  margin-right: 8px;
+}
