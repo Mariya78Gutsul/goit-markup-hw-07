@@ -2,9 +2,9 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-}
-.information-section li:not(:last-child) {
+  & li:not(:last-child) {
   margin-right: 30px;
+}
 }
 .information-section-li {
   width: 270px;

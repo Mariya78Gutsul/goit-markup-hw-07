@@ -1,34 +1,75 @@
-.header-border {
+.header {
   background-color: var(--white-text-color);
   border-bottom: 1px solid rgba(236, 236, 236, 1);
-}
-.logo {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  color: var(--accent-text-color);
-  font-family: Raleway, sans-seri;
-  font-size: 28px;
-  line-height: 1.19;
-}
-.logo .accent {
-  color: var(--titel-text-color);
-}
-.active {
-  position: relative;
-  color: var(--accent-text-color);
-}
-.active::after {
-  display: block;
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-text-color);
-  border-radius: 2px;
-  top: 47px;
-}
-.container-heder {
-  display: flex;
-  align-items: center;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+  &__logo {
+    font-family: Raleway;
+    font-weight: 700;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    color: var(--accent-text-color);
+  }
+  &__logo--accent {
+    color: var(--titel-text-color);
+  }
+  &__nav-list {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition: color 250ms var(--timing-function);
+    & :not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--titel-text-color);
+    transition: color 250ms var(--timing-function);
+  }
+  &__nav-list &__item :hover,
+  &__nav-list &__item :focus {
+    color: var(--accent-text-color);
+  }
+  &__nav-auth {
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition: color 250ms var(--timing-function);
+    & :not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+  &__nav-auth &__item:hover,
+  &__nav-auth &__item:focus {
+    color: var(--accent-text-color);
+  }
+  &__contacts-icon {
+    margin-right: 10px;
+    fill: currentColor;
+    transition: color 250ms var(--timing-function);
+  }
+  &__nav-auth &__contacts-icon:hover,
+  &__nav-auth &__contacts-icon:focus {
+    fill: var(--accent-text-color);
+  }
 }

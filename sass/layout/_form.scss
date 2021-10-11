@@ -19,11 +19,11 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   cursor: pointer;
-}
-.form-input:focus {
+  &:focus {
   outline: none;
   border-color: var(--accent-text-color);
   cursor: text;
+}
 }
 .form-input:focus ~ .form-icon {
   color: var(--accent-text-color);

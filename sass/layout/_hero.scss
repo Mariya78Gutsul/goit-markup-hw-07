@@ -14,8 +14,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.hero-title {
+  &__title {
   margin-bottom: 30px;
   color: var(--white-text-color);
   font-weight: 900;
@@ -23,4 +22,5 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
 }

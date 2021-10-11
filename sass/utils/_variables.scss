@@ -10,3 +10,17 @@
   --border-header-background-color: #ececec;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.active {
+  position: relative;
+  color: var(--accent-text-color);
+  &::after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-text-color);
+    border-radius: 2px;
+    top: 47px;
+  }
+}

@@ -6,11 +6,12 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
-
-textarea {
-  resize: none;
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.icon {
-  fill: currentColor;
+.section {
+  padding: 94px 0px;
 }

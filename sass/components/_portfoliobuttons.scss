@@ -26,7 +26,7 @@
             line-height: 1.63;
             text-align: center;
             }
-}
-.button-filter:not(:nth-child(5n)) {
+            &:not(:nth-child(5n)) {
   margin-right: 8px;
+}
 }

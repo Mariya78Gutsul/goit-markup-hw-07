@@ -17,6 +17,10 @@
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  &:hover{color: var(--accent-text-color);
+  cursor: pointer;
+  border-color: var(--accent-text-color)
+  }
 }
 
 .icon-logo {
@@ -25,8 +29,3 @@
   fill: currentColor;
 }
 
-.icon-client:hover {
-  color: var(--accent-text-color);
-  cursor: pointer;
-  border-color: var(--accent-text-color);
-}

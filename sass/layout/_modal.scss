@@ -15,16 +15,18 @@
   z-index: 3;
   transition: transform 500ms var(--timing-function);
 }
-.modal-form {
-  display: flex;
-  flex-direction: column;
-  width: 448px;
-}
-.modal-form-title {
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
-  color: var(--titel-text-color);
+.modal {
+  &__form {
+    display: flex;
+    flex-direction: column;
+    width: 448px;
+  }
+  &__form-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color: var(--titel-text-color);
+  }
 }

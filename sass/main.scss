@@ -1,11 +1,8 @@
-@import "./utils/vars";
-@import "./base/reset"; 
-@import "./base/container"; 
-@import "./base/common"; 
+@import "./utils/variables";
+@import "./base/reset";
+@import "./base/base";
 // ----------------------------
-@import "./layout/header"; 
-@import "./layout/sitenav";
-@import "./layout/authnav";
+@import "./layout/header";
 // -------------------------
 @import "./components/buttons";
 @import "./components/socials";
